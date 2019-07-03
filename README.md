@@ -21,7 +21,7 @@
             {
               "coin": "BTC",
               "pair": "USDT",
-              "fee": 0.0025,
+              "fee": 0.25,
               "basePrecision": 0,
               "quotePrecision": 8,
               "minBuyAmount": 5.0,
