@@ -1,7 +1,7 @@
 # Bitcoinbing Public Rest API
 
 ## General API Information
-1. Base API Endpoint: https://cdn.bitcoinbing.io
+1. Base API Endpoint: https://publicapi.bitcoinbing.io
 2. All public api will return either JSON or Array object.
 3. Data is returned in descending order. Newest first, oldest last.
 4. All time and timestamp related fields are in seconds.
@@ -9,7 +9,7 @@
 ### Public API
 
 1. #### MARKET STATUS
-   GET `/api/public/market-status`  [Live link](https://cdn.bitcoinbing.io/api/public/market-status)
+   GET `/api/public/market-status`  [Live link](https://publicapi.bitcoinbing.io/api/public/market-status)
 
     > "Market Status" will give your an overview of markets and assets. This is helpful when you want to track the configuration of our markets, track fees or status of withdrawal deposit, market configuration and more. This response is not recommended for price polling because accurate realtime price is not guaranteed as there could be some delays. We recommend using price ticker API for all price tracking activity.
     
@@ -136,7 +136,7 @@
     
 
 1. #### MARKET DEPTH
-   GET `/api/public/market-depth` [Live link](https://cdn.bitcoinbing.io//api/public/market-depth?fsym=BTC&tsym=USDT)
+   GET `/api/public/market-depth` [Live link](https://publicapi.bitcoinbing.io/api/public/market-depth?fsym=BTC&tsym=USDT)
     > Get last 25 orders for any market
     
     Returns JSON response which has order book of a perticular market
@@ -166,7 +166,7 @@
                                         fsym='COIN_NAME' and tsym='PAIR_NAME'
     
 1. #### TRADE HISTORY
-   GET `api/public/trading-history` [Live link](https://cdn.bitcoinbing.io//api/public/trading-history?fsym=BTC&tsym=USDT)
+   GET `api/public/trading-history` [Live link](https://publicapi.bitcoinbing.io/api/public/trading-history?fsym=BTC&tsym=USDT)
     > Get trade history of a market
     
     Returns JSON response which has trade history of a perticular market
