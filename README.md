@@ -21,16 +21,7 @@
             {
               "coin": "BTC",
               "pair": "USDT",
-              "fee": {
-                "buy": {
-                  "maker": 0.0025,
-                  "taker": 0.0025
-                },
-                "sell": {
-                  "maker": 0.0025,
-                  "taker": 0.0025
-                }
-              },
+              "fee": 0.0025,
               "basePrecision": 0,
               "quotePrecision": 8,
               "minBuyAmount": 5.0,
@@ -41,9 +32,7 @@
               "close": 10844.70389819,
               "open": 10648.15092657,
               "volumefrom": "272,755.19589541",
-              "volumeto": "534,223.16923906",
-              "buy": "25.73882898",
-              "sell": "25.73664812",
+              "volumeto": "534,223.16923906",             
               "timestamp": 1562146720
             },
             ...
@@ -67,7 +56,7 @@
     
         1. `coin`: Coin name.
         1. `pair`: Pair name.
-        1. `fee`: JSON Object consists of `buy` and `sell` order's fee percentage.
+        1. `fee`: Fee consists of `buy` and `sell` order's fee percentage.
         1. `basePrecision`: Maximum precision of base asset, this the decimal point.
         1. `quotePrecision`: Maximum  precision of quote asset.
         1. `minBuyAmount`: Minimum buy amount of base asset.
@@ -78,9 +67,7 @@
         1. `close`: Last traded price in current market.
         1. `open`: Market Open price 24hrs ago.
         1. `volumefrom`: Previous 24hrs traded volume.
-        1. `volumeto`: Current traded volume.
-        1. `sell`: Previous 24hrs total sell amount.
-        1. `buy`: Previous 24hrs total buy amount.        
+        1. `volumeto`: Current traded volume.            
         1. `timestamp`: Timestamp when information is fetched.
     1. **`Assets` key have multiple asset related configuration as described below:**
     
