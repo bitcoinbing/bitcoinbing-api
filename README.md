@@ -95,7 +95,7 @@
 
 
 1. #### MARKET TICKER
-   GET `/api/public/market-ticker` [Live link](https://cdn.bitcoinbing.io/api/public/market-ticker)
+   GET `/api/public/market-ticker` [Live link](https://publicapi.bitcoinbing.io/api/public/market-ticker)
     > Get the latest market heart-beat for all the markets for the last 24hrs.
     
     Returns JSON response which has active market data with all ticker related values.
